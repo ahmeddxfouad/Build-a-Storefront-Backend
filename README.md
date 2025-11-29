@@ -24,7 +24,15 @@ npm install
 
 ## 2. Environment Configuration
 
-Create a `.env` file in the project root:
+An example environment file is provided as `.env.example`.
+
+Copy it to `.env` and then fill in the values locally:
+
+```bash
+cp .env.example .env
+```
+
+Then edit the `.env` file in the project root:
 
 ```env
 POSTGRES_HOST=127.0.0.1
